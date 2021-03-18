@@ -1,0 +1,98 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.largeFileOptimizations": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 4,
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.obj": true,
+    "**/*.ilk": true,
+    "**/*.pdb": true,
+    "**/*.tlog": true,
+    "**/*.idb": true,
+    "**/*.dll": true,
+    "**.history": true,
+    "**.vscode": true,
+    "**/.ebextensions": true
+  },
+  "git.ignoreMissingGitWarning": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 0,
+  "javascript.suggest.completeJSDocs": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "php.executablePath": "", // :edit
+  "php.suggest.basic": false,
+  "php.validate.executablePath": "", // :edit
+  "search.useGlobalIgnoreFiles": true,
+  "window.menuBarVisibility": "toggle",
+  "window.title": "‹‹\\(´ω` )/››　　${dirty}${activeEditorShort} / ${rootName}　　‹‹\\( ´ω`)/››",
+  "window.zoomLevel": -1,
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "left",
+
+  // extension: sftp
+  "sftp.printDebugLog": true,
+
+  // extension: background-cover
+  "backgroundCover.autoStatus": true,
+  "backgroundCover.imagePath": "", // :edit
+  "backgroundCover.opacity": 0.4,
+  "backgroundCover.randomImageFolder": "", // :edit
+
+  // extension: blade-formatter
+  "bladeFormatter.format.wrapLineLength": 200,
+
+  // extension: php-cs-fixer
+  "php-cs-fixer.config": ".php_cs;",
+  "php-cs-fixer.executablePath": "", // :edit
+  "php-cs-fixer.formatHtml": false,
+  "php-cs-fixer.onsave": false,
+  "php-cs-fixer.rules": "@PSR2",
+
+  // extension: php-docblocker
+  "php-docblocker.useShortNames": true,
+
+  // extension: namespace-resolver
+  "namespaceResolver.exclude": "**/node_modules/**",
+  "namespaceResolver.showMessageOnStatusBar": false,
+  "namespaceResolver.autoSort": false,
+  "namespaceResolver.sortOnSave": false,
+  "namespaceResolver.sortAlphabetically": true,
+  "namespaceResolver.sortNatural": true,
+  "namespaceResolver.leadingSeparator": true,
+  "namespaceResolver.highlightOnSave": false,
+  "namespaceResolver.highlightOnOpen": false,
+
+  "[scss]": {
+    "editor.autoIndent": "advanced",
+    "editor.detectIndentation": true,
+    "editor.suggest.insertMode": "replace"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+  },
+  "[html]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  }
+}
